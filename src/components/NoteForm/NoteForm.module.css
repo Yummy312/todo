@@ -1,0 +1,11 @@
+
+.formWrapper{
+    display: flex;
+    justify-content: center;
+
+}
+.form{
+    display: inline-block;
+    width: 100%;
+}
+

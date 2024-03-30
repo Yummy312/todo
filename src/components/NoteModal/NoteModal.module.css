@@ -1,0 +1,25 @@
+.NoteModal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    background: rgba(0,0, 0, 0.5);
+
+    display: none;
+
+}
+
+.NoteModalContent{
+    padding: 25px;
+    background-color: #1A1A1A ;
+    min-width: 250px;
+    border-radius: 16px;
+    border: 1px solid white;
+}
+
+.NoteModal.active{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

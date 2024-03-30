@@ -1,0 +1,36 @@
+body{
+  background-color: #1A1A1A;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.container-content{
+  max-width: 736px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.wrapperInner{
+  display: flex;
+  justify-content: center;
+}
+.wrapperInner > :last-child{
+  padding-left: 30px;
+  margin-left: 30px;
+}
